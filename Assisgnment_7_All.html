@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MORE ON CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        .container{
+            background-color: cornflowerblue;
+        }
+
+        .Navig{
+            font-size: 30px;
+        }
+
+        .span1{
+            border: 30px;
+            margin: 50px;
+            padding: 50px;
+            border-style: underline;
+            font-size: 25px;
+        }
+
+        .span2{
+            border: 50px;
+            margin: 50px;
+            padding: 50px;
+            border-style: underline;
+            font-size: 25px;
+
+        }
+        .span3{
+            border: 50px;
+            margin: 30px;
+            padding: 50px;
+            border-style: underline;
+            font-size: 25px;
+
+        }
+        .span4{
+            border: 50px;
+            margin: 100px;
+            padding: 100px;
+            border-style: underline;
+            font-size: 25px;
+
+        }
+
+        .photog img{
+            max-width: 100%;
+            max-height: 300px;
+            border-radius: 30px; 
+            
+
+        }
+
+        .photog {
+            background-color: #dffa0c; 
+            padding-top: 1em;
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-bottom: 3em;
+            display: inline-block; 
+            border-radius: 10px; 
+
+            display: flex;
+            justify-content:center;
+            align-items: center;
+
+            width: 300px;
+            margin: auto;
+            text-align: center;
+
+            transition:background-color 0.3s ease;
+
+
+        }
+
+        .photog:hover{
+            background-color: cyan;
+        }
+
+        .overlay{
+            position:absolute;
+            margin-top: 210px;
+            font-size: 1.1em;
+            
+        }
+
+        .bordering{
+
+            border: 1px solid black;
+            padding: 2em;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        #head{
+            font-family: 'Oswald', sans-serif; 
+            font-size: 1.5em;
+        }
+
+        #manga{   
+            font-weight: 5em;
+            font-size: 1em;
+            font-family: 'Montserrat', sans-serif;
+            padding-bottom: 2em;
+        }
+
+        .bordering2{
+            border: 1px solid black;
+            padding: 2em;
+            display: inline-block;
+        }
+
+
+        .small-image {
+    width: 200px; /* Adjust the width as per your preference */
+    position: absolute;
+    top: 50px; /* Adjust the top position to give some space from the top */
+    left: 20px; /* Adjust the left position to give some space from the left */
+    z-index: 2; /* Ensure the image is above other content */
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Navig">
+            <span class="span1"><a href="" target="_blank">Home</a></span>
+            <span class="span2"><a href="" target="_blank">Contact</a></span>
+            <span class="span3"><a href="" target="_blank">About us</a></span>
+            <span class="span4"><a href="" target="_blank">Blog</a></span>
+            <span class="span5"><a href="" target="_blank">Login</a></span>
+        </div>
+    </div>
+    <br>
+    <div class="photog">
+            <img src="https://cdn.pwskills.com/assets/uploads/thumbnails/64af76666977cc11e7e4086e.png" alt="Blocker">
+            <div class="overlay">
+                Full stack Web Development
+            </div>
+    </div>        
+    <br>
+    <div class="bordering">
+        <header id="head">
+            <h1>About Us (Oswald font)</h1>
+        </header>
+        <Section>
+            <p id="manga">
+                PW Skills' mission is to permeate through every student/professional's outlook
+                 towards jobs and change their attitude and perspective from "How Can I Do It?" 
+                 to "Of Course I Can Do It". We aim to do this by providing exceptional up skilling 
+                 courses at affordable rates, while being tech-forward so anyone, anywhere can access 
+                 and improve their ability to be successful in life.
+            </p>
+            <div id="ppp">
+                <img src="https://pwskills.com/images/aboutUs/aboutUs.png" alt="pw skills">
+            </div>
+        </Section>
+
+        <div>
+            <section class="logo">
+                <img src="https://jobs.pwskills.com/images/PWSkills-main.png" alt="pw2" class="small-image">>
+            </section>
+        </div>
+    </div>
+        <br>
+        <br>
+    <div>
+        <div class="bordering2">
+            <section>
+                <p>
+                    <h1>Requirements</h1>
+                </p>
+                <ol type="i">
+                    <li>System with minimum i3 processor or better</li>
+                    <li>Atleast 4gb of RAM</li>
+                    <li>Working Internet Connection</li>
+                    <li>Dedication to learn</li>
+                </ol>
+            </section>
+        </div>
+    </div>
+
+
+</body>
+</html>
